@@ -165,3 +165,66 @@ section {
 	justify-content: center;
 	align-items: center;
 }
+
+/* Current target */
+#current-target {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#current-target > div {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+#current-target > div > div {
+	width: 32%;
+	border-radius: 10px;
+	padding: 30px;
+}
+#current-target > div > div * + * {
+	margin-bottom: 15px;
+}
+#current-target > div > div img {
+	display: inline-block;
+	margin-bottom: 15px;
+}
+#current-target > div > div h4 {
+	font-size: 20px;
+	font-weight: 900;
+}
+#current-target > div .html {
+	background-color: #ff591d13;
+}
+#current-target > div .css {
+	background-color: #004ae413;
+}
+#current-target > div .js {
+	background-color: #ffdf0013;
+}
+
+/* Support */
+#support {
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url("assets/handshake.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+}
+#support > div {
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+}
+#support > div input {
+	border: 0;
+	width: 88%;
+	border-radius: 5px;
+	padding-left: 15px;
+}
