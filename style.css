@@ -1,0 +1,68 @@
+/* Informations
+    Colors
+        Background #29303c
+        text #d1f0fd
+        accent #61EFBC
+
+*/
+
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	color: #d1f0fd;
+	font-family: "Nunito";
+}
+body {
+	background-color: #29303c;
+}
+
+/* Global */
+.container {
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+}
+.container-fluid {
+	max-width: 100%;
+	width: 100%;
+}
+.btn {
+	padding: 10px;
+	color: black;
+	font-weight: 600;
+	font-size: 16px;
+	background-color: white;
+	outline: 0;
+	border: 0;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.btn-ghost {
+	background-color: transparent;
+	border: 2px solid white;
+	color: white;
+}
+.btn-ghost:hover {
+	background-color: white;
+	color: black;
+	transition: background-color 300ms ease;
+}
+
+/* Nav Bar */
+#main-nav {
+	height: 80px;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: hsl(218, 19%, 28%);
+}
+#main-nav .logo {
+	font-size: 25px;
+	font-weight: 900;
+	color: #61efbc;
+}
