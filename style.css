@@ -19,7 +19,11 @@
 body {
 	background-color: #29303c;
 }
-
+section {
+	margin: 100px 0;
+	padding: 100px;
+	background-color: #333c4b54;
+}
 /* Global */
 .container {
 	max-width: 1280px;
@@ -61,19 +65,31 @@ body {
 	background-color: #59dbab;
 	transition: background-color 300ms ease;
 }
+.section-title {
+	font-size: 35px;
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+.section-subtitle {
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 35px;
+	max-width: 70%;
+	text-align: center;
+}
+
 /* Nav Bar */
 #main-nav {
 	height: 80px;
-	padding: 0 20px;
+	padding: 0 40px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: hsl(218, 19%, 28%);
+	background-color: #333c4b86;
 }
 #main-nav .logo {
 	font-size: 25px;
 	font-weight: 900;
-	color: #61efbc;
 }
 
 /* Hero */
@@ -81,6 +97,7 @@ body {
 	background-image: url("assets/Hero-bg.png");
 	height: auto;
 	padding: 40px 0;
+	margin-bottom: 80px;
 }
 #main-header div {
 	width: 100%;
@@ -105,4 +122,37 @@ body {
 	font-size: 22px;
 	font-weight: 700;
 	margin-bottom: 30px;
+}
+
+/* Why web */
+#why-web {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#why-web .missions {
+	width: 100%;
+	background-color: #333c4b54;
+	padding: 50px;
+	margin: 25px 0;
+	display: flex;
+	justify-content: space-between;
+}
+#why-web .missions div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	max-width: 50%;
+}
+#why-web .missions div h3 {
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+#why-web .missions div p {
+	font-size: 18px;
+	margin-bottom: 15px;
 }
